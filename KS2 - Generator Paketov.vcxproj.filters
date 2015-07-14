@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\TinyXml">
+      <UniqueIdentifier>{95b26111-dd02-40b1-8791-c4c064a3e26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generator">
+      <UniqueIdentifier>{b3855b3f-a6bd-497f-ad8b-3cd6dd970631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generator">
+      <UniqueIdentifier>{c773480e-5e62-4b26-9cb6-f4068b4cf025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TinyXml">
+      <UniqueIdentifier>{78d177a9-bd2c-4b66-8a3a-f223eba129dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menic">
+      <UniqueIdentifier>{6a487d11-e0e6-43ae-8d67-c9d7230f69fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menic">
+      <UniqueIdentifier>{e7f498bd-35d1-4cbc-8831-e8520e2aa399}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TinyXml\tinystr.cpp">
+      <Filter>Source Files\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\tinyxml.cpp">
+      <Filter>Source Files\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\tinyxmlerror.cpp">
+      <Filter>Source Files\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\tinyxmlparser.cpp">
+      <Filter>Source Files\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Source Files\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame802_3.cpp">
+      <Filter>Source Files\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameEthernet.cpp">
+      <Filter>Source Files\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Generator.cpp">
+      <Filter>Source Files\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="IRTPProtocol.cpp">
+      <Filter>Source Files\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="KS2 - Generator Paketov.cpp">
+      <Filter>Source Files\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPProtocol.cpp">
+      <Filter>Source Files\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPProtocol.cpp">
+      <Filter>Source Files\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="xDPProtocol.cpp">
+      <Filter>Source Files\Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Menic.cpp">
+      <Filter>Source Files\Menic</Filter>
+    </ClCompile>
+    <ClCompile Include="TCP_UDPMenic.cpp">
+      <Filter>Source Files\Menic</Filter>
+    </ClCompile>
+    <ClCompile Include="IRTPMenic.cpp">
+      <Filter>Source Files\Menic</Filter>
+    </ClCompile>
+    <ClCompile Include="IPXMenic.cpp">
+      <Filter>Source Files\Menic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Frame.h">
+      <Filter>Header Files\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame802_3.h">
+      <Filter>Header Files\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameEthernet.h">
+      <Filter>Header Files\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Generator.h">
+      <Filter>Header Files\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="IRTPProtocol.h">
+      <Filter>Header Files\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPProtocol.h">
+      <Filter>Header Files\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPProtocol.h">
+      <Filter>Header Files\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="xDPProtocol.h">
+      <Filter>Header Files\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXml\tinyxml.h">
+      <Filter>Header Files\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXml\tinystr.h">
+      <Filter>Header Files\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="Menic.h">
+      <Filter>Header Files\Menic</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP_UDPMenic.h">
+      <Filter>Header Files\Menic</Filter>
+    </ClInclude>
+    <ClInclude Include="IRTPMenic.h">
+      <Filter>Header Files\Menic</Filter>
+    </ClInclude>
+    <ClInclude Include="IPXMenic.h">
+      <Filter>Header Files\Menic</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

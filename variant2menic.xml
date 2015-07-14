@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<configure_summary>
+  <item>
+    <filter_parameters>
+      <protocol>IPX</protocol>
+      <local_socket_address>04 54</local_socket_address>
+    </filter_parameters>
+    <change_parameters>
+      <protocol_type>PEP</protocol_type>
+    </change_parameters>
+  </item>
+  <item>
+    <filter_parameters>
+      <protocol>TCP</protocol>
+      <local_address>147.175.99.32</local_address>
+    </filter_parameters>
+    <change_parameters>
+      <remote_port>8080</remote_port>
+    </change_parameters>
+  </item>
+  <item>
+    <filter_parameters>
+      <protocol>UDP</protocol>
+      <local_address>147.175.106.158</local_address>
+    </filter_parameters>
+    <change_parameters>
+      <local_port>80</local_port>
+    </change_parameters>
+  </item>
+</configure_summary>
